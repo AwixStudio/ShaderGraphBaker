@@ -1,6 +1,6 @@
 // Created basing on: https://www.shadertoy.com/view/Md3SzB
 
-float2 hash22(float2 p)
+float2 hash(float2 p)
 {
     p.xy = mul(p.xy, float2x2(127.1, 311.7, 269.5, 183.3));
     p = -1.0 + 2.0 * frac(sin(p) * 43758.5453123);
@@ -17,10 +17,10 @@ void PerlinNoise_float(float2 p, float2 offset, float scale, float smooth, out f
     
     float2 w = pf * pf * (3 - 2 * pf);
     
-    float f00 = dot(hash22(pi + float2(0, 0)), pf - float2(0, 0));
-    float f01 = dot(hash22(pi + float2(0, 1)), pf - float2(0, 1));
-    float f10 = dot(hash22(pi + float2(1.0, 0)), pf - float2(1.0, 0));
-    float f11 = dot(hash22(pi + float2(1.0, 1)), pf - float2(1.0, 1));
+    float f00 = dot(hash(pi + float2(0, 0)), pf - float2(0, 0));
+    float f01 = dot(hash(pi + float2(0, 1)), pf - float2(0, 1));
+    float f10 = dot(hash(pi + float2(1.0, 0)), pf - float2(1.0, 0));
+    float f11 = dot(hash(pi + float2(1.0, 1)), pf - float2(1.0, 1));
     
     float xm1 = lerp(f00, f10, w.x);
     float xm2 = lerp(f01, f11, w.x);
