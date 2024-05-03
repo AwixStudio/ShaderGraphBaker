@@ -1,0 +1,12 @@
+{
+  "name": "com.awixstudio.shadergraphbaker",
+  "version": "1.0.0",
+  "displayName": "Shader Graph Baker",
+  "description": "",
+  "unity": "2022.3",
+  "unityRelease": "17f1",
+  "keywords": [
+    "Texture",
+    "Procedural"
+  ]
+}
