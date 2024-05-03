@@ -21,6 +21,13 @@ Add to manifest.json in your unity project following packages:
 - "com.unity.nuget.newtonsoft-json": "3.0.2",
 - "com.dbrizov.naughtyattributes": "https://github.com/dbrizov/NaughtyAttributes.git#upm"
 
+## How to install
+1. In Unity open Package Manager. Window -> Package Manager.
+2. Click the Plus button.
+3. Select "add package from git URL"
+4. https://github.com/AwixStudio/ShaderGraphBaker.git#package
+5. Add.
+
 ## How to contribute
 - I am trying to develop more custom nodes to be able to generate more complex procedural textures. feel free to add yours and send a PR.
 - Make a better custom window or implement sub-menus directly in ShaderGraph! 
