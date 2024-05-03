@@ -17,6 +17,8 @@ Another example:
 Here is the article on [Medium](https://medium.com/@omid3098/using-unity-s-shadergraph-as-a-procedural-texture-creation-tool-54fc5836534e)
 
 ## Package dependencies
+This package is intended for Universal Render Pipeline
+
 Add to manifest.json in your unity project following packages:
 - "com.unity.nuget.newtonsoft-json": "3.0.2",
 - "com.dbrizov.naughtyattributes": "https://github.com/dbrizov/NaughtyAttributes.git#upm"
