@@ -782,7 +782,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "_Stripes",
     "m_StageCapability": 3,
-    "m_Value": 5.440000057220459,
+    "m_Value": 8.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
 }
